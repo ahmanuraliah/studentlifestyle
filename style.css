@@ -1,0 +1,111 @@
+
+{margin:0;}
+
+body
+{
+background: url(picture/background.jpg) no-repeat;
+background-size: cover;
+height: 100vh;
+background-position: left;
+background-repeat: no repeat;
+background-attachment: fixed;
+}
+
+.header
+{
+width: 100%;
+background-color: rgba(0,0,0,.2);
+}
+
+.header ul
+{
+text-align: center;
+}
+
+.header ul li
+{
+list-style: none;
+display: inline-block;
+}
+
+.header ul li a
+{
+display: block;
+text-decoration: none;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+font-family: 'raleway', sans-serif;
+letter-spacing: 2px;
+font-weight: 600;
+padding: 25px;
+transition: all ease 0.5s;
+}
+
+.header ul li a:hover
+{
+background-color: #211b4385;
+}
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.wrapper
+{
+margin-top: -10%;
+}
+
+.wrapper h1
+{
+font-family: 'verdana', cursive;
+font-size: 52px;
+margin-bottom: 60px;
+text-align: center;
+}
+
+.team
+{
+display: flex;
+text-align: center;
+width: auto;
+justify-content: center;
+}
+
+.team .team_member
+{
+background: #fff;
+margin: 10px;
+margin-bottom: 60px;
+width: 270px;
+padding: 20px;
+line-height: 20px;
+position: relative;
+}
+
+.team .team_member h4
+{
+margin-top: 30px;
+}
+
+footer
+{
+text-align: center;
+background-color: #333;
+color: #fff;
+padding: 10px;
+height: 6vh;
+}
+
+h2
+{
+font-family: verdana, sans-serif;
+font-size: 40px;
+text-align: center;
+}
+
+
+

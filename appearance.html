@@ -1,0 +1,406 @@
+<html>
+<head>
+<title>Appearance</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<style>
+
+a:link
+{
+color: black;
+background-color: transparent;
+text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+h1
+{
+font-family: 'Sriracha', cursive;
+font-size: 70px;
+}
+
+h2
+{
+font-family: verdana, sans-serif;
+font-size: 40px;
+}
+
+h3, h4, p
+{
+font-family: candana;
+}
+
+.bg
+{
+background-image: url("picture/home.png");
+height: 60%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container-1, .container-2
+{
+width: 1280px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 70px auto 0;
+}
+
+.container-1 .box, .container-2 .box
+{
+position: relative;
+width: 300px;
+height: 300px;
+background: #8EACF5;
+margin: 10px;
+box-sizing: border-box;
+display: inline-block;
+}
+
+.container-1 .box .imgBox, .container-2 .box .imgBox
+{
+position: relative;
+overflow: hidden;
+}
+
+.container-1 .box .imgBox img, .container-2 .box .imgBox img
+{
+width: 100%;
+height: 100%;
+transition: transform 2s;
+}
+
+.container-1 .box:hover .imgBox img, .container-2 .box:hover .imgBox img
+{
+transform: scale(1.2);
+}
+
+.container-1 .box .details, .container-2 .box .details
+{
+position: absolute;
+top: 10px;
+left: 10px;
+right: 10px;
+bottom: 10px;
+background: rgba(0,0,0,.8);
+transform: scaleY(0);
+trasition: transform .5s;
+}
+
+.container-1 .box:hover .details, .container-2 .box:hover .details
+{
+transform: scaleY(1);
+}
+
+.container-1 .box .details .content, .container-2 .box .details .content
+{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+text-align: center;
+padding: 15px;
+color: #fff;
+}
+
+.container-1 .box .details .content h3, .container-2 .box .details .content h3
+{
+margin: 0;
+padding: 0;
+font-size: 30px;
+color: #fff;
+text-align: center;
+}
+
+.container-1 .box .details .content p, .container-2 .box .details .content p
+{
+margin: 10px 0 0;
+padding: 0;
+font-size: 20px;
+color: #fff;
+}
+
+.container-3
+{
+top: -5%;
+margin: 100px auto;
+position: relative;
+width: 900px;
+height: 330px;
+padding: 40px;
+background: white;
+}
+
+p 
+{
+font-family: verdana; 
+font-size: 15px;
+text-align: center;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="header">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="appearance.html">Appearance</a></li>
+<li><a href="outfit.html">Outfit</a></li>
+<li><a href="dishes.html">Dishes</a></li>
+<li><a href="activities.html">Get Fit!</a></li>
+<li><a href="studysmart.html">Study Smart</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<center>
+<h1><font color="#0D69B9"><h1>Appearance</font></h1>
+</center><br>
+
+<div class="container-3">
+<center><p><font size="5">
+Appearance is important for everyone to be more confident 
+especially when dealing with people, not only in the university 
+but also in a work place.</font><br><br>
+<font size="4">Below are several products that sold with affordable price less
+ than RM50 for students to keep a good appearance. 
+</font></p>
+<br>
+<h3>Click the links below for more details.</h3><br>
+<a href="https://www.watsons.com.my/" target="_blank">WATSONS</a>
+<br><br>
+<a href="https://guardian.com.my/" target="_blank">GUARDIAN</a>
+</center>
+</div>
+
+<center><h2>Skincare</h2></center>
+<div class="container-1">
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/eyecream.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Eye Cream</h3>
+<h4>RM 29.65</h4>
+<p>Easing fine lines, dark circle, and puffiness.</p>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/facemist.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Face Mist</h3>
+<h4>RM 8.90</h4>
+<p>Help to perk up tired-looking face and provide additional boost of hydration.</p>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/toner.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Toner</h3>
+<h4>RM 16.75</h4>
+<p>Help to close pores and tighten cell gaps after cleancing, recuding the penetration of impurities
+and environmental contaminants into the skin.</p>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/therapy.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Skin Therapy Oil</h3>
+<h4>RM 7</h4>
+<p>Helps to improve the appearance of scars, strech marks, dry, damaged skin,
+uneven skin tone, fone line, and wrinkles</p>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/moisturizer.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Moisturizer</h3>
+<h4>RM 16 - RM 27</h4>
+<p>Treat the skin when it's dry and prevent it from drying out again.</p>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/sunscreen.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Sunscreen</h3>
+<h4>RM 15 - RM 30</h4>
+<p>Protect the skin from sun's harmful ultraviolet rays, which come in UVA or UVB rays.</p>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/lips.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Lip Balm</h3>
+<h4>RM 14 - RM 16</h4>
+<p>Provide an occlusive layer on the lip surface to seal moisturize in lips and protect
+them from external exposure.</p>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/facewash.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Face Wash</h3>
+<h4>RM 8 - RM 15</h4>
+<p>Removes debris from deeper layers of skin and cleanses pores.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<br><br><br><br>
+<center><h2>Cosmetics</h2></center>
+<div class="container-2">
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/foundation.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Foundation</h3>
+<h4>RM 13 - RM40</h4>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/concealer.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Concealer</h3>
+<h4>RM 27</h4>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/powder.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Powder</h3>
+<h4>RM 21</h4>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/blusher.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Blusher</h3>
+<h4>RM 13</h4>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/eyeshadow.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Eye Shadow</h3>
+<h4>RM 16</h4>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/mascara.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Mascara</h3>
+<h4>RM 15 - RM 22</h4>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/lipgloss.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Lip Gloss / Lip Cream</h3>
+<h4>RM 22 - RM 26</h4>
+</div>
+</div>
+</div>
+
+<div class="box">
+<div class="imgBox">
+<img src="picture/setting.jpg">
+</div>
+<div class="details">
+<div class="content">
+<h3>Setting Powder / Setting Spray</h3>
+<h4>RM 15 - RM 20</h4>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<footer>
+<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>, Student Lifestyle</p>
+</footer>
+</body>
+</html>
